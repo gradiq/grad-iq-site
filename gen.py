@@ -47,7 +47,7 @@ pages["privacy.html"]=("Privacy Policy","Grad-IQ Planners privacy policy, IQLear
 pages["about.html"]=("About","About Grad-IQ and IQ Learning.",'''<div class="hero"><div class="wrap"><p class="eyebrow">About</p><h1>About Grad-IQ</h1><p class="lede">Grad-IQ is a brand of IQ Learning (IQLearning LLC), based in Las Vegas, Nevada. We make practical tools for graduate students.</p></div></div>
 <section><div class="wrap grid"><div class="card tint4"><h3>IQ Learning</h3><p>IQ Learning is Grad-IQ's parent company.</p></div>
 <div class="card tint3"><h3>Sister brand: TrivQ</h3><p>TrivQ makes educational board games, starting with TrivQ Judaica.</p><div class="spacer"></div><a class="btn" href="https://trivq.org" target="_blank" rel="noopener">Visit trivq.org</a></div>
-<div class="card tint1"><h3>Who we are</h3><p>Grad-IQ is managed by Dr. Evelyn Mayes and Jay Saletra, Director of Operations.</p></div></div></section>''')
+<div class="card tint1"><h3>Who we are</h3><p>Grad-IQ is managed by Dr. Evelyn &ldquo;Evy&rdquo; Mayes and Jay S., Director of Operations.</p></div></div></section>''')
 pages["contact.html"]=("Contact","Contact Grad-IQ.",'''<div class="hero"><div class="wrap"><p class="eyebrow">Contact</p><h1>Get in touch</h1><p class="lede">Questions about planners, regalia or the app? Email us and we'll reply.</p></div></div>
 <section><div class="wrap grid"><div class="card"><h3>Email</h3><p><a href="mailto:jay.s@grad-iq.org">jay.s@grad-iq.org</a></p><a class="btn primary" href="mailto:jay.s@grad-iq.org">Email Grad-IQ</a></div>
 <div class="card tint2"><h3>Location</h3><p>IQLearning LLC<br>Las Vegas, NV</p></div></div></section>''')
