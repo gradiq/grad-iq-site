@@ -10,11 +10,11 @@ def page(fn,title,desc,body):
 <footer><div class="wrap cols"><div>© 2026 IQLearning LLC · Las Vegas, NV<br><a href="mailto:jay.s@grad-iq.org">jay.s@grad-iq.org</a></div>
 <ul>{"".join(f'<li><a href="{h}">{t}</a></li>' for h,t in NAV[1:])}<li><a href="privacy.html">Privacy</a></li></ul></div></footer>
 <script src="assets/config.js"></script><script src="assets/site.js"></script></body></html>'''
-P=[("open-enrollment","Open Enrollment Health-Cost Planner","https://saletra40-a11y.github.io/open-enrollment-planner/","Compare health-plan options and estimate your yearly costs before open enrollment closes."),
-("beat-rising-prices","Beat Rising Prices Budget Planner","https://saletra40-a11y.github.io/beat-rising-prices-planner/","Track cash flow, triage spending and plan around higher everyday costs."),
-("phd-stipend-loan","PhD Stipend & Loan Budget Planner","https://saletra40-a11y.github.io/phd-stipend-loan-planner/","Budget your stipend month by month, spot gaps, and keep student loans in view."),
-("burnout-proof-study","Burnout-Proof Study Tracker","https://saletra40-a11y.github.io/burnout-proof-study-tracker/","Plan today's focus, run study sessions and review with cards, without burning out."),
-("phd-roadmap","PhD Roadmap Planner","https://saletra40-a11y.github.io/phd-roadmap-planner/","Map milestones, advisor meetings and deadlines from coursework to defense.")]
+P=[("open-enrollment","Open Enrollment Health-Cost Planner","https://gradiq.github.io/open-enrollment-planner/","Compare health-plan options and estimate your yearly costs before open enrollment closes."),
+("beat-rising-prices","Beat Rising Prices Budget Planner","https://gradiq.github.io/beat-rising-prices-planner/","Track cash flow, triage spending and plan around higher everyday costs."),
+("phd-stipend-loan","PhD Stipend & Loan Budget Planner","https://gradiq.github.io/phd-stipend-loan-planner/","Budget your stipend month by month, spot gaps, and keep student loans in view."),
+("burnout-proof-study","Burnout-Proof Study Tracker","https://gradiq.github.io/burnout-proof-study-tracker/","Plan today's focus, run study sessions and review with cards, without burning out."),
+("phd-roadmap","PhD Roadmap Planner","https://gradiq.github.io/phd-roadmap-planner/","Map milestones, advisor meetings and deadlines from coursework to defense.")]
 cards="".join(f'''<article class="card"><img class="shot" src="assets/img/{s}.png" alt="{html.escape(t)} demo on a phone" loading="lazy"><h3>{html.escape(t)}</h3><p>{d}</p><div class="spacer"></div>
 <p class="price">$19</p><div class="btns"><a class="btn" href="{u}" target="_blank" rel="noopener">Try the demo</a><a class="btn disabled" data-buy="{s}" aria-disabled="true">Coming soon to Etsy</a></div></article>''' for s,t,u,d in P)
 pages={}
@@ -38,7 +38,7 @@ pages["save-checklist.html"]=("Free SAVE Plan Exit Checklist","A free checklist 
 <div class="btns"><a class="btn primary" href="https://gradiq.github.io/save-plan-exit-checklist/" target="_blank" rel="noopener">Open the free checklist</a></div><p class="note">Free, runs in your browser. It's a planning aid, not legal or financial advice; your loan servicer sets final terms.</p></div>
 <img class="shot" style="max-width:320px;justify-self:center" src="assets/img/save-exit.png" alt="SAVE Plan Exit Checklist on a phone"></div></div>''')
 pages["app.html"]=("App","Grad-IQ Planners app for iPhone, iPad and Android.",'''<div class="hero"><div class="wrap split"><div><p class="eyebrow">Mobile app</p><h1>Grad-IQ Planners app</h1><p class="lede">Four offline planners in one app: PhD Stipend &amp; Loan Budget, Burnout-Proof Study Tracker, PhD Roadmap, and Lumen 7-Step Planner.</p>
-<p><span class="tag">Coming soon to the App Store and Google Play</span></p><div class="btns"><a class="btn primary" href="https://saletra40-a11y.github.io/grad-iq-app-preview/" target="_blank" rel="noopener">See the app preview</a></div></div>
+<p><span class="tag">Coming soon to the App Store and Google Play</span></p><div class="btns"><a class="btn primary" href="https://gradiq.github.io/grad-iq-app-preview/" target="_blank" rel="noopener">See the app preview</a></div></div>
 <img class="shot" style="max-width:300px;justify-self:center" src="assets/img/app.png" alt="Grad-IQ Planners app home screen"></div></div>
 <section><div class="wrap"><div class="grid"><div class="card"><h3>Free download</h3><p>Try every planner with sample data. Fully usable, but nothing is saved and there's no backup or export.</p></div>
 <div class="card tint4"><h3>$19.99 one-time unlock</h3><p>Saves your entries on the device, adds backup and restore, CSV export, and loan due-date reminders. No subscription.</p></div>
